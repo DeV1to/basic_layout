@@ -28,8 +28,8 @@ body {
     position: absolute;
     height: 70px;
     width: 70px;
-    left: 60px;
-    top: 18px;
+    left: 90px;
+    top: 25px;
 }
 
 .nav {
@@ -104,6 +104,7 @@ body {
      line-height: 24px;
      color: #FFF;
      border: none;
+     margin-right: 20px; /*I made it so that when narrowing the button does not press against the edge */
 }
 
 .main-screen__tagline {
@@ -161,6 +162,7 @@ body {
     line-height: 22px;
     color: #FFF;
     opacity: 0.4;
+    margin-left: 45px; /*I have not found any other way to center the text*/
 }
 
 .order {
