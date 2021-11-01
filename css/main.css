@@ -990,13 +990,11 @@ main {
 
 @media (max-width: 1440px) {
     #hamburger ~ nav {
-        /*display: none;*/
         left: -304px;
         transition: left .3s;
     }
 
     #hamburger:checked ~ nav {
-        /*display: block;*/
         display: block;
         left: 0;
     }
