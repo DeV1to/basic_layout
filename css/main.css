@@ -981,6 +981,86 @@ footer {
     top: 15px;
     left: 312px;
 }
+#hamburger { display: none; }
+
+@media (max-width: 1440px) {
+    #hamburger ~ nav {
+        left: -304px;
+        transition: left .3s;
+    }
+
+    #hamburger:checked ~ nav {
+        display: block;
+        left: 0;
+    }
+
+    .hamburger-button {
+        position: relative;
+        display: block;
+        width: 28px;
+        height: 28px;
+        border: solid 3px white;
+    }
+
+    .hamburger__dash {
+        display: block;
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        background: #fff;
+    }
+
+    .hamburger__dash_line-1 {
+        top: 8px;
+        left: 4px;
+    }
+
+    .hamburger__dash_line-2 {
+        top: 12px;
+        left: 4px;
+    }
+
+    .hamburger__dash_line-3 {
+        top: 16px;
+        left: 4px;
+    }
+
+    nav {
+        width: 300px;
+        background: #000;
+        border: 2px solid #fff;
+    }
+
+    .nav_right-300px {
+        right: auto;
+    }
+
+    .nav__list li {
+        display: block;
+        float: none;
+        height: 28px;
+        line-height: 24px;
+        padding: 2px;
+        border-bottom: 2px solid #fff;
+        text-align: left;
+    }
+
+    .nav__list li {
+        margin: 0;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+
+}
 
 main {
     flex: 1;
