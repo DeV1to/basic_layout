@@ -87,9 +87,9 @@ body {
 }
 
  .main-screen__login-button > button {
-     position: absolute;
+    position: absolute;
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
-     border-radius: 50px;
+    border-radius: 50px;
     width: 183px;
     height: 44px;
     text-align: center;
@@ -98,12 +98,12 @@ body {
     top: 48px;
     justify-content: center;
     align-items: center;
-     font-style: normal;
-     font-weight: normal;
-     font-size: 16px;
-     line-height: 24px;
-     color: #FFF;
-     border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFF;
+    border: none;
 }
 
 .main-screen__tagline {
@@ -193,7 +193,7 @@ body {
 }
 
 .order__students-info {
-    display: block;
+    display: flex;
     flex-direction: column;
     position: absolute;
     color: white;
@@ -328,6 +328,7 @@ body {
 
 .fast-start {
     display: flex;
+    position: relative;
     width: 1315px;
     height: 552px;
     margin: 120px auto;
@@ -447,12 +448,15 @@ body {
 }
 
 .profession__header {
+    position: absolute;
     font-weight: bold;
     font-size: 48px;
     line-height: 140%;
     color: white;
     text-align: center;
     margin-bottom: 100px;
+    left: 200px;
+    white-space: nowrap;
 }
 
 .profession__row {
@@ -500,6 +504,7 @@ body {
 
 .partners {
     display: flex;
+    position: relative;
     width: 1200px;
     height: 487px;
     margin: 120px auto;
@@ -575,6 +580,7 @@ body {
 
 .program {
     display: flex;
+    position: relative;
     width: 750px;
     height: 1250px;
     margin: 120px auto;
@@ -720,6 +726,7 @@ body {
 
 .teachers {
     display: flex;
+    position: relative;
     width: 1200px;
     height: 620px;
     margin: 120px auto;
