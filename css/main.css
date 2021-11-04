@@ -15,7 +15,6 @@ body {
 .main-screen {
     background-image: url("../img/kv_100m.jpg");
     text-align: center;
-    position: relative;
     width: 100%;
     height: 750px;
     margin: 0 auto;
@@ -80,6 +79,7 @@ body {
 
 .wrapper > * {
     margin: 0 auto;
+    position: relative;
 }
 
 .wrapper_background-121212 {
@@ -164,7 +164,6 @@ body {
 }
 
 .order {
-    position: relative;
     background: #121212;
     width: 1240px;
     height: 130px;
@@ -282,7 +281,6 @@ body {
 
 
 .about {
-    position: relative;
     display: flex;
     width: 1280px;
     height: 742px;
@@ -328,7 +326,6 @@ body {
 
 .fast-start {
     display: flex;
-    position: relative;
     width: 1315px;
     height: 552px;
     margin: 120px auto;
@@ -412,27 +409,28 @@ body {
     margin-right: 25px;
 }
 
-#fast-start__progress-bar-xl {
+.fast-start__progress-bar_xl {
     width: 324px;
     height: 80px;
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
     position: absolute;
+    left:-160px;
 }
 
-.fast-start__progress-bar-lg {
+.fast-start__progress-bar_lg {
     width: 324px;
     height: 60px;
     left: 162px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
-.fast-start__progress-bar-md {
+.fast-start__progress-bar_md {
     width: 324px;
     height: 30px;
     left: 486px;
 }
 
-.fast-start__progress-bar-sm {
+.fast-start__progress-bar_sm {
     width: 224px;
     height: 10px;
     left: 800px;
@@ -443,12 +441,11 @@ body {
     width: 1296px;
     height: 549px;
     margin: 120px auto;
-    position: relative;
     display: flex;
 }
 
 .profession__header {
-    position: absolute;
+    display: flex;
     font-weight: bold;
     font-size: 48px;
     line-height: 140%;
@@ -457,6 +454,7 @@ body {
     margin-bottom: 100px;
     left: 200px;
     white-space: nowrap;
+    margin-left: 200px;
 }
 
 .profession__row {
@@ -504,7 +502,6 @@ body {
 
 .partners {
     display: flex;
-    position: relative;
     width: 1200px;
     height: 487px;
     margin: 120px auto;
@@ -580,7 +577,6 @@ body {
 
 .program {
     display: flex;
-    position: relative;
     width: 750px;
     height: 1250px;
     margin: 120px auto;
@@ -726,7 +722,6 @@ body {
 
 .teachers {
     display: flex;
-    position: relative;
     width: 1200px;
     height: 620px;
     margin: 120px auto;
@@ -761,12 +756,8 @@ body {
     position: absolute;
 }
 
-.teachers__list_top {
+.teachers__list_top-200px {
     top: 200px;
-}
-
-.teachers__list_left {
-    left: 50px;
 }
 
 .teach__list {
@@ -788,25 +779,25 @@ body {
     margin-right: 0;
 }
 
-.teacher_info {
+.teachers__info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.teacher_photo {
+.teachers__photo {
     width: 190px;
     height: 190px;
     background-color: #FFF;
     border-radius: 50%;
 }
 
-.teacher_photo > img {
+.teachers__photo > img {
     border-radius: 50%;
 }
 
-.teacher_name {
+.teachers__name {
     position: absolute;
     width: 416px;
     height: 34px;
@@ -819,7 +810,7 @@ body {
     color: #FFF;
 }
 
-.specialist_in {
+.teachers__specialist-in {
     position: absolute;
     width: 358px;
     height: 26px;
@@ -832,7 +823,7 @@ body {
     opacity: 0.8;
 }
 
-.biography_btn {
+.teachers__biography-btn {
     display: flex;
     justify-content: center;
     align-items: center;
