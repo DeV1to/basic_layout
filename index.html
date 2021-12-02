@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.google.com/specimen/Roboto#standard-styles">
     <link rel="stylesheet" href="css/main.css">
+    <script defer src="scripts.js"></script>
     <title>Courses</title>
 </head>
 <body>
@@ -16,9 +17,7 @@
         <div class="header__container _container">
             <nav class="navigation">
                 <div id="menuToggle">
-                    <!--
-                    A fake / hidden checkbox
-                    -->
+                    <!--A fake / hidden checkbox-->
                     <input type="checkbox" />
                     <span></span>
                     <span></span>
@@ -68,38 +67,38 @@
                         Первый курс по компьютерной сборке
                     </div>
                     <div class="main-block__timer">
-                                <span class="main-block__days clock-face">
-                                    <div class="clock-face__value">
-                                        18
-                                    </div>
-                                    <div class="clock-face__value-text">
-                                        Дней
-                                    </div>
-                                </span>
+                        <span class="main-block__days clock-face">
+                            <div class="clock-face__value">
+                                18
+                            </div>
+                            <div class="clock-face__value-text">
+                                Дней
+                            </div>
+                        </span>
                         <span class="main-block__hours clock-face">
-                                    <div class="clock-face__value">
-                                        18
-                                    </div>
-                                    <div class="clock-face__value-text">
-                                        Часов
-                                    </div>
-                                </span>
+                            <div class="clock-face__value">
+                                18
+                            </div>
+                            <div class="clock-face__value-text">
+                                Часов
+                            </div>
+                        </span>
                         <span class="main-block__minutes clock-face">
-                                    <div class="clock-face__value">
-                                        18
-                                    </div>
-                                    <div class="clock-face__value-text">
-                                        Минут
-                                    </div>
-                                </span>
+                            <div class="clock-face__value">
+                                18
+                            </div>
+                            <div class="clock-face__value-text">
+                                Минут
+                            </div>
+                        </span>
                         <span class = "main-block__seconds clock-face">
-                                    <div class="clock-face__value">
-                                        18
-                                    </div>
-                                    <div class="clock-face__value-text">
-                                    Секунд
-                                    </div>
-                                </span>
+                            <div class="clock-face__value">
+                                18
+                            </div>
+                            <div class="clock-face__value-text">
+                                Секунд
+                            </div>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -109,54 +108,52 @@
         </div>
         <div class="page__order-block order-block">
             <div class="order-block__container _container">
-                <div class="order__button">
-                    <a href="" class="order-button button_orange">Заказать курс</a>
-                </div>
-                <div class="order__content content">
                     <div class="content__left-part left-part">
-                        <div class="left-part__content-text">
-                            <div class="left-part__students-total left-part__text">
-                                Учеников всего:
-                            </div>
-                            <div class="left-part__successfully-completed left-part__text">
-                                Успешно закончили курс:
-                            </div>
+                        <div class="order__button">
+                            <button class="order-button button_orange">Заказать курс</button>
                         </div>
-                        <div class="left-part__content-numbers">
-                            <div class="left-part__students-total left-part__numbers">
-                                200
-                            </div>
-                            <div class="left-part__successfully-completed left-part__numbers">
-                                190
-                            </div>
-                        </div>
+                       <div class="left-text">
+                           <div class="left-part__line">
+                               <div class="left-part__text">
+                                   Учеников всего:
+                               </div>
+                               <div class="left-part__value">
+                                   200
+                               </div>
+                           </div>
+                           <div class="left-part__line">
+                               <div class="left-part__text2">
+                                   Успешно закончили курс:
+                               </div>
+                               <div class="left-part__value">
+                                   190
+                               </div>
+                           </div>
+                       </div>
                     </div>
                     <div class="content__right-part right-part">
-                        <div class="right-part__content-text">
-                            <div class="right-part__earned left-part__text">
+                        <div class="right-part__line salary">
+                            <div class="right-part__text">
                                 Заработано учениками:
                             </div>
-                        </div>
-                        <div class="right-part__content-numbers left-part__numbers">
-                            <div class="right-part__summ">
+                            <div class="right-part__value">
                                 400 000$
                             </div>
                         </div>
                         <div class="right-part__line line">
                             <div class="line__main-line">
-                                <div class="line__progress-line"></div>
+                                <div class="line__second-line"></div>
                             </div>
                         </div>
-                        <div class="right-part__line-value line-value">
-                            <div class="line-value__start line-value__text">
+                        <div class="right-part__line values">
+                            <div class="values__value">
                                 0$
                             </div>
-                            <div class="line-value__end line-value__text">
+                            <div class="values__value values__value-end">
                                 1 000 000$
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
         <div class="page__about-block about-block">
@@ -495,6 +492,36 @@
             </div>
         </div>
     </footer>
+    <div class="forms">
+        <div class="forms__darkback non-use"></div>
+        <div class="feedback-form form">
+            <div class="feedback-form__inner form__inner">
+                <h2 class="form__title">
+                    Присоединяйтесь к нашей команде!
+                </h2>
+                <div class="input-form">
+                    <input placeholder="ФИО" type="text" name="" class="feedback-form__input feedback-form__input_name form__input" minlength="2" maxlength="50">
+                    <input placeholder="e-mail" type="email" name="" class="feedback-form__input form__input">
+                    <input placeholder="Контактный номер телефона" type="tel" name="" class="feedback-form__input form__input feedback-form__input_phone-number" minlength="10" maxlength="12">
+                </div>
+                <div class="form-agreement">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" name="agree" class="custom-control-input" id="customCheck">
+                        <label class="custom-control-label" for="customCheck">
+                            Нажимая кнопку, я принимаю условия <a href="#">Пользовательского соглашения</a> и даю своё согласие на обработку моих персональных данных, в
+                            соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных».
+                        </label>
+                    </div>
+                </div>
+                <button class="feedback-form__send-button form__send-button link-button_color_blue" type="submit">
+                    Заказать курс
+                </button>
+                <button class="feedback-form__close-button form__close-button">
+                    &times;
+                </button>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
